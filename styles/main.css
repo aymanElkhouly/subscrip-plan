@@ -1,0 +1,187 @@
+html, body {
+  height: 100%;
+}
+
+.navbar-blue {
+  min-height: 100px;
+  height: auto;
+  background-color: #293377;
+}
+.navbar-blue .nav-item .nav-title {
+  text-align: center;
+  font: 500 15px/25px IBM Plex Sans;
+  letter-spacing: 0.45px;
+  color: #FFFFFF;
+  opacity: 0.45;
+}
+.navbar-blue .nav-item a.active {
+  opacity: 1;
+}
+.navbar-blue .btn-sign-in {
+  width: 140px;
+  height: 43px;
+  border-radius: 24px;
+  font: 500 15px/25px IBM Plex Sans;
+  letter-spacing: 0.45px;
+}
+.navbar-blue .btn-sign-up {
+  text-align: center;
+  font: 500 15px/25px IBM Plex Sans;
+  letter-spacing: 0.45px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.navbar-blue .separator {
+  border-left: 2px solid #FFFFFF;
+  height: 42px;
+  opacity: 0.45;
+}
+
+.main-title {
+  height: 223px;
+  width: 100%;
+  margin-top: 100px;
+  text-wrap: normal;
+  background: #F4F7FE 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.main-title .disc {
+  text-align: center;
+  font: 400 30px/49px IBM Plex Sans;
+  letter-spacing: 0.9px;
+  color: #454545;
+  opacity: 1;
+}
+
+.content-box {
+  padding-bottom: 50px;
+}
+.content-box .title {
+  /*text-align: left;*/
+  font: 400 28px/40px IBM Plex Sans;
+  letter-spacing: 0.98px;
+  color: #293377;
+  opacity: 1;
+}
+.content-box .under-title {
+  margin: auto;
+  width: 40px;
+  border-bottom: 2px solid #293377;
+}
+
+.plan {
+  min-height: 898px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #0000000F;
+  border-radius: 2px;
+  opacity: 1;
+}
+.plan .header {
+  height: 132px;
+  background-color: #303F9F;
+  border-radius: 2px;
+}
+.plan .header .title {
+  text-align: center;
+  font: 500 24px/32px IBM Plex Sans;
+  letter-spacing: 0.72px;
+  color: #FFFFFF;
+}
+.plan .price-content {
+  height: 202px;
+  background-color: #F4F7FE;
+  border-radius: 2px;
+}
+.plan .price-content .disc {
+  text-align: center;
+  font: 400 18px/23px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #3A3A3A;
+}
+.plan .price-content .price {
+  text-align: center;
+  font: 500 43px/62px IBM Plex Sans;
+  letter-spacing: 1.29px;
+  color: #933FA2;
+  opacity: 1;
+}
+.plan .price-content .period {
+  justify-content: center;
+  display: flex;
+}
+.plan .price-content .period .per-1 {
+  text-align: center;
+  font: 400 18px/33px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #414141;
+  opacity: 1;
+}
+.plan .price-content .period .per-2 {
+  text-align: center;
+  font: 500 18px/33px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #303F9F;
+  opacity: 1;
+}
+.plan .price-content.main-plan {
+  height: 250px;
+}
+.plan .benefits .item {
+  border-bottom: 1px solid lightgray;
+}
+.plan .benefits .item .name {
+  text-align: left;
+  font: 400 14px/36px IBM Plex Sans;
+  letter-spacing: 0.42px;
+  color: #5B5D62;
+  opacity: 0.48;
+}
+.plan .benefits .item .details {
+  text-align: left;
+  font: 500 16px/36px IBM Plex Sans;
+  letter-spacing: 0.48px;
+  color: #5B5D62;
+  opacity: 1;
+}
+
+.main-footer {
+  position: relative;
+  clear: both;
+  min-height: 250px;
+  height: auto;
+  width: 100%;
+  background-color: #303F9F;
+  opacity: 1;
+}
+.main-footer .title {
+  text-align: left;
+  font: 500 18px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.main-footer .item-title {
+  text-align: left;
+  font: 400 14px/36px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #ABB3BC;
+  opacity: 1;
+}
+
+.custom-control-label::before {
+  position: absolute;
+  top: 0.65rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+
+.custom-switch .custom-control-label::after {
+  top: calc(.65rem + 2px);
+  left: calc(-2.25rem + 2px);
+  width: calc(1rem - 4px);
+  height: calc(1rem - 4px);
+}
+
+/*# sourceMappingURL=main.css.map */
