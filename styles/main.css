@@ -7,6 +7,9 @@ html, body {
   height: auto;
   background-color: #293377;
 }
+.navbar-blue .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 .navbar-blue .nav-item .nav-title {
   text-align: center;
   font: 500 15px/25px IBM Plex Sans;
@@ -70,11 +73,12 @@ html, body {
 }
 
 .plan {
-  min-height: 898px;
+  min-height: 933px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #0000000F;
   border-radius: 2px;
   opacity: 1;
+  padding-bottom: 22px;
 }
 .plan .header {
   height: 132px;
@@ -182,6 +186,88 @@ html, body {
   left: calc(-2.25rem + 2px);
   width: calc(1rem - 4px);
   height: calc(1rem - 4px);
+}
+
+.btn-submit {
+  height: 43px;
+  padding: 0 25px;
+  background-color: #933FA2;
+  border-radius: 24px;
+  text-align: center;
+  font: 500 15px/25px IBM Plex Sans;
+  letter-spacing: 0.9px;
+  color: #FFFFFF;
+}
+
+.subscription-modal {
+  min-height: 650px;
+  background-color: #FFFFFF;
+  box-shadow: 11px 9px 45px #0000000F;
+  border-radius: 2px;
+  opacity: 1;
+}
+.subscription-modal .rawper {
+  padding: 10px 150px;
+}
+.subscription-modal .modal-title {
+  font: 400 28px/40px IBM Plex Sans;
+  letter-spacing: 0.98px;
+  color: #293377;
+  opacity: 1;
+}
+.subscription-modal .under-title {
+  margin: auto;
+  width: 40px;
+  border-bottom: 2px solid #293377;
+}
+.subscription-modal .price {
+  text-align: center;
+  font: 500 43px/62px IBM Plex Sans;
+  letter-spacing: 1.29px;
+  color: #933FA2;
+  opacity: 1;
+}
+.subscription-modal .period {
+  justify-content: center;
+  display: flex;
+}
+.subscription-modal .period .per-1 {
+  text-align: center;
+  font: 400 18px/33px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #414141;
+  opacity: 1;
+}
+.subscription-modal .period .per-2 {
+  text-align: center;
+  font: 500 18px/33px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #303F9F;
+  opacity: 1;
+}
+.subscription-modal .disc {
+  text-align: center;
+  font: 400 16px/20px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #5B5B5B;
+}
+.subscription-modal .payment-title {
+  text-align: left;
+  font: 400 18px/23px IBM Plex Sans;
+  letter-spacing: 0.36px;
+  color: #414141;
+  opacity: 1;
+}
+
+.modal-backdrop {
+  background: #293377 0% 0% no-repeat padding-box;
+  opacity: 0.9;
+}
+
+@media (max-width: 767px) {
+  .separator {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

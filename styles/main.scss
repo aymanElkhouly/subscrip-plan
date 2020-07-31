@@ -9,6 +9,9 @@ html,body{
   min-height: 100px;
   height: auto;
   background-color: #293377;
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
   .nav-item {
     .nav-title {
       text-align: center;
@@ -82,12 +85,13 @@ html,body{
 
 }
 .plan{
-  //width: 430px;
-  min-height: 898px;
+  //min-height: 898px;
+  min-height: 933px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #0000000F;
   border-radius: 2px;
   opacity: 1;
+  padding-bottom: 22px;
  .header{
    height: 132px;
    background-color: #303F9F;
@@ -208,5 +212,97 @@ html,body{
     left: calc(-2.25rem + 2px);
     width: calc(1rem - 4px);
     height: calc(1rem - 4px);
+  }
+}
+.btn-submit{
+  height: 43px;
+  padding: 0 25px;
+  background-color: #933FA2;
+  border-radius: 24px;
+  text-align: center;
+  font: 500 15px/25px $base-font;
+  letter-spacing: 0.9px;
+  color: #FFFFFF;
+}
+
+
+//Modal Prop //
+.subscription-modal{
+  min-height: 650px;
+  //width: 773px;
+  //height: 793px;
+  background-color: #FFFFFF;
+  box-shadow: 11px 9px 45px #0000000F;
+  border-radius: 2px;
+  opacity: 1;
+
+  .rawper{
+    padding: 10px 150px;
+  }
+  .modal-title{
+    font: 400 28px/40px $base-font;
+    letter-spacing: 0.98px;
+    color: #293377;
+    opacity: 1;
+  }
+  .under-title{
+    margin: auto;
+    width: 40px;
+    border-bottom: 2px solid #293377;
+  }
+
+  .price{
+    text-align: center;
+    font: 500 43px/62px $base-font;
+    letter-spacing: 1.29px;
+    color: #933FA2;
+    opacity: 1;
+  }
+  .period{
+    justify-content: center;
+    display: flex;
+    .per-1{
+      text-align: center;
+      font: 400 18px/33px $base-font;
+      letter-spacing: 0.36px;
+      color: #414141;
+      opacity: 1;
+    }
+    .per-2{
+      text-align: center;
+      font: 500 18px/33px $base-font;
+      letter-spacing: 0.36px;
+      color: #303F9F;
+      opacity: 1;
+    }
+  }
+
+  .disc{
+    text-align: center;
+    font: 400 16px/20px $base-font;
+    letter-spacing: 0.36px;
+    color: #5B5B5B;
+
+  }
+  .payment-title{
+    text-align: left;
+    font: 400 18px/23px $base-font;
+    letter-spacing: 0.36px;
+    color: #414141;
+    opacity: 1;
+  }
+
+
+
+}
+.modal-backdrop{
+  background: #293377 0% 0% no-repeat padding-box;
+  opacity: 0.9;
+}
+
+// Medium devices (tablets, 768px and Down)
+@media (max-width: 767px) {
+  .separator{
+    display: none;
   }
 }
