@@ -240,6 +240,7 @@ html,body{
     padding: 10px 150px;
   }
   .modal-title{
+    text-align: center;
     font: 400 28px/40px $base-font;
     letter-spacing: 0.98px;
     color: #293377;
@@ -261,22 +262,21 @@ html,body{
   .period{
     justify-content: center;
     display: flex;
-    .per-1{
-      text-align: center;
-      font: 400 18px/33px $base-font;
-      letter-spacing: 0.36px;
-      color: #414141;
-      opacity: 1;
-    }
-    .per-2{
-      text-align: center;
-      font: 500 18px/33px $base-font;
-      letter-spacing: 0.36px;
-      color: #303F9F;
-      opacity: 1;
-    }
   }
-
+  .per-1{
+    text-align: center;
+    font: 400 18px/33px $base-font;
+    letter-spacing: 0.36px;
+    color: #414141;
+    opacity: 1;
+  }
+  .per-2{
+    text-align: center;
+    font: 500 18px/33px $base-font;
+    letter-spacing: 0.36px;
+    color: #303F9F;
+    opacity: 1;
+  }
   .disc{
     text-align: center;
     font: 400 16px/20px $base-font;
@@ -291,18 +291,71 @@ html,body{
     color: #414141;
     opacity: 1;
   }
-
-
-
+  .img-input{
+    position: relative;
+    top: 30px;
+    left: 91%;
+    width: 35px;
+  }
+  .accept-terms{
+    font: 400 14px/18px $base-font;
+    letter-spacing: 0px;
+    color: #293377;
+  }
+  .btn-pay{
+    background: #303F9F 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 25px;
+    text-align: center;
+    font: SemiBold 15px/19px IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+  .control-lg{
+    height: calc(1.5em + .75rem + 10px);
+  }
 }
+
+
+
 .modal-backdrop{
   background: #293377 0% 0% no-repeat padding-box;
   opacity: 0.9;
 }
 
+
+
+// small devices (tablets, 540px and Down)
+@media (max-width: 576px) {
+  .rawper {
+    padding: 10px 30px !important;
+  }
+  .img-input{
+    left:83% !important;
+  }
+}
 // Medium devices (tablets, 768px and Down)
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
+  .rawper {
+    padding: 10px 30px !important;
+  }
   .separator{
     display: none;
   }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .rawper {
+    padding: 10px 30px !important;
+  }
+}
+
+@media (max-width: 576px){
+  .justify-content-sm-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+  }
+}
+
+
