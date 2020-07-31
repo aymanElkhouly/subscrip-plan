@@ -296,6 +296,11 @@ html, body {
   .img-input {
     left: 83% !important;
   }
+
+  .justify-content-sm-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
 }
 @media (max-width: 767.98px) {
   .rawper {
@@ -309,12 +314,6 @@ html, body {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .rawper {
     padding: 10px 30px !important;
-  }
-}
-@media (max-width: 576px) {
-  .justify-content-sm-center {
-    -ms-flex-pack: center !important;
-    justify-content: center !important;
   }
 }
 

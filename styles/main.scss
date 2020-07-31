@@ -333,6 +333,10 @@ html,body{
   .img-input{
     left:83% !important;
   }
+  .justify-content-sm-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+  }
 }
 // Medium devices (tablets, 768px and Down)
 @media (max-width: 767.98px) {
@@ -351,11 +355,5 @@ html,body{
   }
 }
 
-@media (max-width: 576px){
-  .justify-content-sm-center {
-    -ms-flex-pack: center!important;
-    justify-content: center!important;
-  }
-}
 
 
